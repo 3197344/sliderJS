@@ -1,0 +1,90 @@
+    html,
+    body {
+    font-size: 18px;
+    font-family: sans-serif;
+    }
+
+    .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #f1f1f1;
+    padding: 30px;
+    }
+
+    h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    }
+    h2 {
+    font-size: 15px;
+    font-weight: 800;
+    text-align: center;
+    }
+
+    p {
+    font-size: 14px;
+    padding-left: 15px;
+    padding-right: 15px;
+    line-height: 1.2;
+    /* text-align: center; */
+    }
+
+    .btn {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    }
+
+    button {
+    margin: 5px;
+    background: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 0.9rem;
+    }
+
+    button:hover {
+    background: rgb(247, 165, 136);
+    }
+
+    button:active {
+    background: #000;
+    color: #fff;
+    }
+
+    .person {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 12px;
+    }
+    img {
+    height: auto;
+    }
+    .namePerson {
+    padding-left: 10px;
+    }
+
+    .slider {
+    /* border: 2px solid rgb(187, 187, 187); */
+    width: 256px;
+    height: 256px;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 2px;
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+    }
+
+    .slider-line {
+    width: 1024px;
+    height: 256px;
+    display: flex;
+    background: rgb(253, 249, 243);
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+    }
